@@ -1,0 +1,75 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background: url("images/mugbackground.png") no-repeat;
+	background-size:cover;
+}
+
+#wrapper{
+	width: 900px;
+	margin:0 auto;
+}
+
+header h1 {
+	font-size: 50px;
+	font-family: lust-stencil-display, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	text-align: center;
+	color: cadetblue;
+	
+}
+
+nav{
+	width: 100%;
+	text-align: center;
+}
+
+nav ul{
+	list-style-type: none;
+	margin: 40;
+	padding: 10;
+}
+
+nav li{
+	display: inline;
+	margin: 40;
+}
+
+footer {
+	text-align: center;
+	clear: both;
+	text-align: center;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+
+nav a:link {
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	color: burlywood;
+	text-decoration: none;
+	
+}
+
+nav a:hover {
+	color:chocolate;
+}
+
+nav a:active {
+	text-decoration: underline;
+}
+
+.left {
+	width: 420px;
+	float: left;
+	margin-top: 20px;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	
+}
+
+.right {
+	width: 420px;
+	float: right;
+	margin-left: 40px;
+	
+}
